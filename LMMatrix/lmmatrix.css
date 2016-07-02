@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* 配色、フォントなど
+-------------------------*/
+table {border-collapse:collapse;border:solid 1px #000;}
+th, td {border:solid 1px #000;}
+thead {font-size: smaller;}
+thead th {background-color: #fff;}
+thead .col5 {background-color: #8db4e2;}
+thead .col6 {background-color: #a9e4b3;}
+thead .col7 {background-color: #faf098;}
+.col3 {font-size: x-small;}
+td a{
+	display:block;
+	color: #000;
+	background-color: #6dcff6;
+	border:solid 1px #00aeef;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* レイアウト
+-----------------*/
+/* 全体の幅 */
+#scrollee, #scrollee thead, #scrollee thead tr, #scroller tbody{width: 760px;}
+/* 列幅(合計が全体の幅になるようにする) */
+.col1 {width: 50px;}
+.col2 {width: 50px;}
+.col3 {width: 20px;}
+.col4 {width: 160px;}
+.col5 {width: 160px;}
+.col6 {width: 160px;}
+.col7 {width: 160px;}
+/* 全体の幅+スクロールバーの分の余地 */
+#table_container{width: 780px;}
+/*ヘッダ部高さ*/
+#table_container{padding-top: 55px;}
+#scrollee thead tr th{height: 55px;}
+/*データ部高さ*/
+#scroller{height: 200px;}
+
+/* ヘッダ部固定の仕掛け
+---------------------------*/
+/*absolute配置の基準*/
+#table_container{position: relative;}
+/*スクロールバーを表示させる*/
+#scroller{overflow:auto;}
+/*header*/
+#scrollee thead tr{
+	/*absoluteを指定し,containerに追い出す.*/
+	position:absolute;
+	top:0;
+	left:0;
+}
