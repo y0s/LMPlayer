@@ -12,9 +12,9 @@ LMPlayer(Layered Movie Player)は、元となる動画の上に多様なエフ�
 ## 著作権と利用条件
 このソフトウェアの著作権は京都大学iCeMS科学コミュニケーショングループに帰属します。また、このソフトウェアの開発は(株)ドーガにご協力いただきました。
 
-このソフトウェアはMIT Lisenceに基づき自由に複製・利用頂けます。詳細はLisence.txtにてご確認下さい。
+このソフトウェアはMIT Licenseに基づき自由に複製・利用頂けます。詳細はLicense.txtにてご確認下さい。
 
 ## 問い合わせ先
-京都大学iCeMS科学コミュニケーショングループ(http://www.scg.icems.kyoto-u.ac.jp/)までお問い合わせください
+京都大学iCeMS科学コミュニケーショングループ( http://www.scg.icems.kyoto-u.ac.jp/ )までお問い合わせください
 
 
